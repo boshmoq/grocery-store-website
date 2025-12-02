@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+:root {
+  --background: #fff;
+  --green: #76a713; /* First-letter, */
+  --accent-color: #4f9022; /* buttons, cards */
+  --orange: #f60; /* discounts, stars */
+  --footer-back: #151823;
+  --footer-color: #666873;
+  --text-color: #000;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/* Font properties */
+@font-face {
+  font-family: 'Steelfish';
+  src: url(../fonts/steelfish.otf);
+}
+
+h1, h2, .title {
+  font-family: 'Antonio', 'Oswald', sans-serif;
+  text-transform: capitalize;
+}
+
+h3, h4, .subtitle {
+  font-family: 'Steelfish', sans-serif;
+  text-transform: uppercase;
+}
+
+h5, p, a, span, .paragraph {
+  font-family: 'Poppins', 'Comfortaa', sans-serif;
+}
+
+h6 {
+  font-size: 26pt;
+  font-family: 'Poppins', 'Steelfish', sans-serif;
+  font-weight: bold;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
